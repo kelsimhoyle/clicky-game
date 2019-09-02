@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "./images/manatee1.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "./images/manatee2.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "./images/manatee3.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "./images/manatee4.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": ".images/manatee5.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "./images/manatee6.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "./images/manatee7.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "./images/manatee8.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "./images/manatee9.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "./images/manatee10.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "./images/manatee11.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "./images/manatee12.jpg",
+        "clicked": false
+    }
+]
