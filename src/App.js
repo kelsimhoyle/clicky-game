@@ -22,7 +22,23 @@ class App extends Component {
       }),
       count: this.state.count + 1
     });
+  }
 
+  shuffleCards = (array) => {
+    let currentIndex = array.length;
+    let tempValue, randomIndex;
+
+    while (0 !== currentIndex) {
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+  
+      // And swap it with the current element.
+      tempValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = tempValue;
+    }
+    return array;
   }
 
   loseGame = () => {
@@ -33,15 +49,19 @@ class App extends Component {
       })],
       count: 0
     })
-    console.log("game reset")
+
   }
   
-  render() {return (
-    <div>
+  render() {
+    let shuffledManateees = this.shuffleCards(this.state.manatees);
+    return (
+    <>
     <h2>Score: {this.state.count}</h2>
-      {this.state.manatees.map((manatee, index) => (
+    <main className="container">
+    <div className="row">
+      {shuffledManateees.map((manatee) => (
         <ManateeCard 
-        image={images[index]} 
+        image={images[manatee.id - 1]} 
         key={manatee.id} 
         clicked={manatee.clicked} 
         id={manatee.id} 
@@ -49,7 +69,9 @@ class App extends Component {
         loseGame={this.loseGame}
         />
         ))}
-    </div>
+        </div>
+        </main>
+    </>
 
   );
   }
