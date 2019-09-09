@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/clicky-game/static/css/main.9261a458.chunk.css",
+    "main.js": "/clicky-game/static/js/main.8db9dee1.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.8db9dee1.chunk.js.map",
+    "runtime~main.js": "/clicky-game/static/js/runtime~main.80bf01e5.js",
+    "runtime~main.js.map": "/clicky-game/static/js/runtime~main.80bf01e5.js.map",
+    "static/js/2.a95e7809.chunk.js": "/clicky-game/static/js/2.a95e7809.chunk.js",
+    "static/js/2.a95e7809.chunk.js.map": "/clicky-game/static/js/2.a95e7809.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.b52892b74004e161e4d1934d46b1c730.js": "/clicky-game/precache-manifest.b52892b74004e161e4d1934d46b1c730.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/css/main.9261a458.chunk.css.map": "/clicky-game/static/css/main.9261a458.chunk.css.map",
+    "static/media/style.css": "/clicky-game/static/media/background.5c59ec4f.jpg",
+    "static/media/manatee1.jpg": "/clicky-game/static/media/manatee1.5756eb16.jpg",
+    "static/media/manatee10.jpg": "/clicky-game/static/media/manatee10.e149b093.jpg",
+    "static/media/manatee11.jpg": "/clicky-game/static/media/manatee11.23fb18af.jpg",
+    "static/media/manatee12.jpg": "/clicky-game/static/media/manatee12.9b9ebbce.jpg",
+    "static/media/manatee2.jpg": "/clicky-game/static/media/manatee2.baeaf58c.jpg",
+    "static/media/manatee3.jpg": "/clicky-game/static/media/manatee3.3b494f69.jpg",
+    "static/media/manatee4.jpg": "/clicky-game/static/media/manatee4.e2b1d8ea.jpg",
+    "static/media/manatee5.jpg": "/clicky-game/static/media/manatee5.b54016b7.jpg",
+    "static/media/manatee6.jpg": "/clicky-game/static/media/manatee6.9e0cea98.jpg",
+    "static/media/manatee7.jpg": "/clicky-game/static/media/manatee7.26a1589b.jpg",
+    "static/media/manatee8.jpg": "/clicky-game/static/media/manatee8.dfb7d805.jpg",
+    "static/media/manatee9.jpg": "/clicky-game/static/media/manatee9.3baa8334.jpg"
+  }
+}
