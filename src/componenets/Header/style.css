@@ -3,4 +3,19 @@
     background-size: cover;
     background-position: center center;
     height: 75vh;
+    font-family: 'Karla', sans-serif;
   }
+
+  .jumbotron .container {
+    padding-top: 20%;
+  }
+
+.jumbotron h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-size: 2rem;
+  text-align: center;
+}

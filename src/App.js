@@ -12,7 +12,8 @@ class App extends Component {
     manatees,
     count: 0,
     highScore: 0,
-    correct: null
+    correct: null,
+    gameLost: false
   }
 
   handleClick = (id) => {
@@ -22,12 +23,12 @@ class App extends Component {
         if (manatee.id === id) {
           manatee.clicked = true
         }
-        console.log(manatee)
         return manatee;
       }),
       count: this.state.count + 1,
       highScore: (this.state.highScore < this.state.count + 1 ? this.state.count + 1 : this.state.highScore),
-      correct: true
+      correct: true,
+      gameLost: false
     });
   }
 
@@ -55,9 +56,9 @@ class App extends Component {
         return manatee
       })],
       count: 0, 
-      correct: false
+      correct: false,
+      gameLost: true
     })
-
   }
 
   render() {
@@ -74,6 +75,7 @@ class App extends Component {
                 key={manatee.id}
                 clicked={manatee.clicked}
                 id={manatee.id}
+                gameLost={this.state.gameLost}
                 handleClick={this.handleClick}
                 loseGame={this.loseGame}
               />

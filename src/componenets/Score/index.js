@@ -7,7 +7,7 @@ function Score(props) {
         <h2>High Score: {props.highScore}</h2>
         {props.correct === null ? 
         (<h2>Click a manatee to start the game!</h2>) :
-        ( <h2>{props.correct ? "You guessed correctly!" : "You guessed incorrectly."}</h2>)}
+        (<h2>{props.correct ? "You guessed correctly!" : "You guessed incorrectly."}</h2>)}
         <h2>Current Score: {props.score}</h2>
         </nav>
     )

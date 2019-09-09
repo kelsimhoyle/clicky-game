@@ -1,8 +1,7 @@
 # Manatee Clicky Game
 This is a React app that utilizes state in order to play a memory game.
 
-## Get Started
-To run locally: 
+## Run Locally
 * Fork and clone the repo
 * `npm i` to ensure that all dependencies are installed
 * `npm start` to run the react app
